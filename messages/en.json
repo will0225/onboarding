@@ -1,0 +1,100 @@
+{
+  "Index": {
+    "title": "Booka Onboarding",
+    "description": "Description Here",
+    "keywords": "keyword1, keyword2, keyword3"
+  },
+  "PageLayout": {
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy",
+    "subscription": "Subscription Terms",
+    "author": "BKA Media Solituons",
+    "copyright": "2024 ©All Rights Reserved.",
+    "nextbutton": "Next"
+  },
+  "Language": {
+    "en": "English",
+    "es": "Spanish",
+    "fr": "French",
+    "de": "German",
+    "ru": "Russian"
+  },
+  "Age": {
+    "question": "How old is your little reader?",
+    "description": "We’ll find stories that perfectly match their curiosity, imagination, and growing skills.",
+    "years": "years",
+    "options": [
+      "Baby Explorer",
+      "Tiny Storyteller",
+      "Growing Reader",
+      "Book Adventurer"
+    ]
+  },
+  "Interest": {
+    "question": "What makes your child light up with excitement?",
+    "description": "Let’s find books that match their world!",
+    "options": [
+      "Animals",
+      "Fairy Tales",
+      "Science & STEM",
+      "Adventures",
+      "Sports",
+      "Fiction",
+      "History",
+      "Others"
+    ]
+  },
+  "Characters": {
+    "question": "Which types of characters does your child love most?",
+    "options": [
+      "Funny Animals",
+      "Brave Heroes",
+      "Magical Creatures",
+      "Cars and Trucks",
+      "Historical Figures"
+    ]
+  },
+  "ReadingLevel": {
+    "question": "What’s your child’s current reading level?",
+    "options": ["Beginner", "Learner", "Intermediate", "Advanced"]
+  },
+  "ReadingMode": {
+    "question": "How does your child prefer to enjoy stories?",
+    "options": [
+      "Listen to Audiobooks",
+      "Read with Parents",
+      "Read Along",
+      "Independent Reading"
+    ]
+  },
+  "Hobbies": {
+    "question": "What other activities or hobbies does your child enjoy?",
+    "options": [
+      "Drawing and Arts",
+      "Science Experiments",
+      "Sports and Outdoor Play",
+      "Music and Singing"
+    ]
+  },
+  "ReadingTime": {
+    "question": "When does your little reader love storytime the most?",
+    "description": "We’ll recommend books to match their rhythm.",
+    "options": ["Morning", "Afternoon", "Bedtime", "Roadtrip"]
+  },
+  "EmotionalConnection": {
+    "question": "How do you want your child to feel while reading?",
+    "description": "We’ll choose stories that make the experience magical.",
+    "options": [
+      "Uplifting and Positive",
+      "Inspiring and Motivational",
+      "Comforting and Soothing",
+      "Exciting and Adventurous"
+    ]
+  },
+  "Subscription": {
+    "title": "Congratulations!",
+    "description": "We’ve created a unique reading list just for your child. Curated selections and personalized recommendations are ready to inspire, educate, and delight your little reader.",
+    "subtitle": "Make storytime special—start exploring now!",
+    "button": "Start Reading Now"
+  }
+}

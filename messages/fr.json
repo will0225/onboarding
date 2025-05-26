@@ -1,0 +1,100 @@
+{
+  "Index": {
+    "title": "Bienvenue sur Booka",
+    "description": "Description Here",
+    "keywords": "keyword1, keyword2, keyword3"
+  },
+  "PageLayout": {
+    "terms": "Conditions générales",
+    "privacy": "Politique de confidentialité",
+    "subscription": "Conditions d'abonnement",
+    "author": "BKA Media Solituons",
+    "copyright": "2024 ©Tous droits réservés.",
+    "nextbutton": "Suivant"
+  },
+  "Language": {
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français",
+    "de": "Allemand",
+    "ru": "Russe"
+  },
+  "Age": {
+    "question": "Quel âge a votre petit lecteur ?",
+    "description": "Nous sélectionnerons des histoires adaptées à sa curiosité, son imagination et ses compétences en développement.",
+    "years": "ans",
+    "options": [
+      "Explorateur Bébé",
+      "Petit Conteur",
+      "Lecteur en Herbe",
+      "Aventurier des Livres"
+    ]
+  },
+  "Interest": {
+    "question": "Qu'est-ce qui passionne votre enfant ?",
+    "description": "Trouvons des livres qui correspondent à son univers !",
+    "options": [
+      "Animaux",
+      "Contes de fées",
+      "Sciences et STEM",
+      "Aventures",
+      "Sports",
+      "Fiction",
+      "Histoire",
+      "Autres"
+    ]
+  },
+  "Characters": {
+    "question": "Quels types de personnages votre enfant préfère-t-il ?",
+    "options": [
+      "Animaux drôles",
+      "Héros courageux",
+      "Créatures magiques",
+      "Voitures et camions",
+      "Personnages historiques"
+    ]
+  },
+  "ReadingLevel": {
+    "question": "Quel est le niveau de lecture actuel de votre enfant ?",
+    "options": ["Débutant", "Apprenant", "Intermédiaire", "Avancé"]
+  },
+  "ReadingMode": {
+    "question": "Comment votre enfant préfère-t-il découvrir des histoires ?",
+    "options": [
+      "Écouter des livres audio",
+      "Lire avec les parents",
+      "Lire en suivant l'audio",
+      "Lecture autonome"
+    ]
+  },
+  "Hobbies": {
+    "question": "Quelles autres activités ou hobbies votre enfant apprécie-t-il ?",
+    "options": [
+      "Dessin et arts",
+      "Expériences scientifiques",
+      "Sports et jeux en plein air",
+      "Musique et chant"
+    ]
+  },
+  "ReadingTime": {
+    "question": "À quel moment votre enfant préfère-t-il écouter des histoires ?",
+    "description": "Nous recommanderons des livres adaptés à son rythme.",
+    "options": ["Matin", "Après-midi", "Avant de Dormir", "En Voyage"]
+  },
+  "EmotionalConnection": {
+    "question": "Comment souhaitez-vous que votre enfant se sente en lisant ?",
+    "description": "Nous choisirons des histoires qui rendront l’expérience magique.",
+    "options": [
+      "Positif et épanoui",
+      "Inspiré et motivé",
+      "Réconforté et apaisé",
+      "Excité et aventurier"
+    ]
+  },
+  "Subscription": {
+    "title": "Félicitations !",
+    "description": "Nous avons créé une liste de lecture unique pour votre enfant. Des sélections sur mesure et des recommandations personnalisées sont prêtes à l’inspirer, l’éduquer et l’amuser.",
+    "subtitle": "Rendez chaque moment de lecture spécial—commencez à explorer maintenant !",
+    "button": "Commencer la Lecture"
+  }
+}
