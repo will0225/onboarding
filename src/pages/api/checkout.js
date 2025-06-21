@@ -23,8 +23,8 @@ export default async function handler(req, res) {
           quantity: 1,
         },
       ],
-      success_url: `${req.headers.origin}/payment-success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${req.headers.origin}/cancel`,
+      success_url: `https://appbooka.com/en/registration?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${req.headers.origin}/onboarding/cancel`,
     });
 
     res.status(200).json({ url: session.url });

@@ -1,0 +1,14 @@
+Onboarding starts on the webpage: https://www.appbooka.com/onboarding
+
+After the final stage after pressing on button Start Reading should be opened the page where customer can choose a subscription: reference: https://buddy.ai/en/eld-prices. (https://buddy.ai/en/eld-prices) We will leave here only 1-year subscription with no trial and 1 month subscription with trial.
+
+Please use the same colours, buttons and styles on this page as you used in the onboarding.
+
+After Choosing the plan we have to make a customer to create an account here: https://appbooka.com/registration
+
+After registration, we have to go to the Stripe subscription page (should be customised in the same way as the payment page)
+
+After successful payment and subscription, the data should be passed to revenue can and to our admin panel that this account bought the subscription in web.
+
+root
+V4guhRktEU9FqTkXLuss
