@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import Link from "next/link";
+import Logo from "../../public/assets/logo/Logo_transp_96x96.png";
+import Image from "next/image";
 
 const plans = [
   {
@@ -57,13 +60,24 @@ const ChooseSubscription = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center">
-      <div className="max-w-9/10 p-8 rounded-2xl glass  mt-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center animate-fade-in">
+       
+      <div className="max-w-3/5 w-3/4 p-8 rounded-2xl glass  mt-8">
+        <div className="mb-8 justify-center items-center ps-250" >
+        <Link href="/">
+          <Image
+            src={Logo}
+            alt="logo"
+            width={64}
+            height={64}
+          />
+        </Link>
+        </div>
+        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 animate-fade-in">
         Unlock the Full Booka Experience
         </h1>
-        <p className="text-lg text-#2a2a2a-600 mb-8 text-center" >
+        <p className="text-lg text-#2a2a2a-600 mb-8 " >
         Thousands of narrated picture books for kids — all in one joyful reading app.        </p>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 lg:grid-cols-4">
           {plans.map((plan) => (
             <div
               key={plan.title}
@@ -103,9 +117,28 @@ const ChooseSubscription = () => {
             </div>
           ))}
         </div>
-        <div className="mt-10 text-center">
-          <span className="text-gray-500 text-sm">
-            Secure payments powered by Stripe.
+        <div className="mt-10">
+          <span className="text-black text-sm flex">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18">
+            <path fill="#53bf52" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+          </svg>
+            <span className="font-bold ml-1">So Many books</span> - Hundreds of collections on every topic your child will love - from dinosours to bedtime to big emotions
+          </span>
+        </div>
+        <div className="mt-5">
+          <span className="text-black text-sm flex">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18">
+            <path fill="#53bf52" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+          </svg>
+            <span className="font-bold ml-1">Swipe & Discover</span>- A playful, scrollable feed of the most delightful stories - always fresh and fun.
+          </span>
+        </div>
+        <div className="mt-5">
+          <span className="text-black text-sm flex">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18">
+            <path fill="#53bf52" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+          </svg>
+            <span className="font-bold ml-1">Read to Me</span>- Tap a book, hit play, and let Booka read aloud to your child. Perfect for sola moments or quiet breaks.
           </span>
         </div>
       </div>
